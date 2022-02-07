@@ -22,6 +22,9 @@ module.exports = {
         blanco: '#FFFFFF',
         
       },
+      backgroundImage: {
+        'bottles': "url('/img/bottles.png')",
+      },
     },
   },
   plugins: [],

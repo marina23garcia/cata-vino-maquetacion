@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./output.css" rel="stylesheet" />
+    <link href="./output.css" rel="stylesheet"/>
   </head>
-  <body class="bg-red-100">
+  <body>
     <!--Header-->
     <div class="w-full">
       <!--Idiomas querida-->
@@ -15,7 +15,9 @@
       </div>
        <!--Logo + botones redondos-->
     <div class="h-16 bg-blanco flex items-center lg:h-24 px-4">
-      <div class="w-1/2">LOGO</div>
+      <div class="w-1/2">
+        <img src="/img/logo.jpg" alt="">
+      </div>
       <nav class="w-1/2 flex justify-end lg:hidden">
         <ul class="flex justify-self-end">
           <li>
@@ -67,12 +69,35 @@
     </div>
     </div>
     <!--Imagen principal-->
-    <div class="h-96 w-full bg-slate-400 text-blanco flex flex-col justify-center items-center text-center">
-      <div class="w-1/3 text-2xl">Titulo Home</div>
-      <div class="w-1/3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dolorem natus distinctio dolores recusandae culpa sequi repellendus saepe delectus quidem nulla magnam, totam vero architecto suscipit cum ratione earum obcaecati.</div>
+    <div class="h-[500px] w-full bg-bottles bg-no-repeat bg-cover bg-center text-blanco flex flex-col justify-center items-center text-center lg:items-start lg:px-16 lg:text-left">
+      <div class="w-2/3 lg:w-1/3 text-3xl mb-3">Titulo Home</div>
+      <div class="w-2/3 lg:w-1/3">Lorem ipsum dolor sit amet, recusandae culpa sequi repellendus saepe delectus quidem nulla magnam, totam vero architecto suscipit cum ratione earum obcaecati.</div>
+      <div class="flex items-center text-blanco bg-primario font-medium  hover:bg-accent px-6 py-4 rounded-sm mt-8 cursor-pointer">
+        <div>Comprar bonos</div>
+      </div>
     </div>
 
     <!--Recargar tus bonos-->
+    <div class="flex justify-center items-center">
+    <div class="border-2 border-primario rounded-md m-10 w-5/6 flex p-6 sm:p-10">
+      
+      <div class="sm:w-3/4 w-full flex flex-col justify-center items-center sm:items-start">
+      <div class="text-2xl mb-3 text-primario">¿Quieres recargar tus bonos?</div>
+      <div class="text-base">Ahora puedes directamente desde este boton</div>
+      <div class="w-48 flex items-center justify-center text-blanco bg-primario font-medium hover:bg-accent px-6 py-4 rounded-sm mt-8 cursor-pointer">
+        <div>Recargar bonos</div>
+        <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg" class="ml-2 w-4 h-4">
+          <path d="M7.40018 4.12479H4.51521L5.5802 0.91363C5.6802 0.537593 5.3927 0.166504 5.00021 0.166504H1.40025C1.10025 0.166504 0.845255 0.386684 0.805255 0.681081L0.00526438 6.61851C-0.0422351 6.97476 0.237762 7.29142 0.600258 7.29142H3.56772L2.41524 12.1032C2.32524 12.4792 2.61523 12.833 2.99773 12.833C3.20773 12.833 3.40773 12.7242 3.51772 12.5361L7.91767 5.0154C8.15017 4.62205 7.86267 4.12479 7.40018 4.12479Z" fill="white"/>
+          </svg>
+      </div>
+    </div>
+
+    <div class="w-1/4 sm:flex justify-end items-center hidden">
+      <div class="w-32 h-32"><img src="/img/montilla-uvas.png" alt=""></div>
+    </div>
+
+    </div>
+  </div>
 
     <!--Descripcion del bono-->
 
