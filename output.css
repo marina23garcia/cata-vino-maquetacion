@@ -592,30 +592,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 500px;
 }
 
-.h-80 {
-  height: 20rem;
-}
-
-.h-36 {
-  height: 9rem;
-}
-
-.h-40 {
-  height: 10rem;
-}
-
-.h-48 {
-  height: 12rem;
-}
-
-.h-60 {
-  height: 15rem;
-}
-
-.h-56 {
-  height: 14rem;
-}
-
 .h-32 {
   height: 8rem;
 }
@@ -668,60 +644,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 66.666667%;
 }
 
-.w-1\/3 {
-  width: 33.333333%;
-}
-
-.w-20 {
-  width: 5rem;
-}
-
-.w-10 {
-  width: 2.5rem;
-}
-
-.w-16 {
-  width: 4rem;
-}
-
-.w-40 {
-  width: 10rem;
-}
-
-.w-52 {
-  width: 13rem;
-}
-
-.w-4\/5 {
-  width: 80%;
-}
-
-.w-1\/5 {
-  width: 20%;
-}
-
-.w-3\/4 {
-  width: 75%;
-}
-
-.w-1\/4 {
-  width: 25%;
-}
-
-.w-80 {
-  width: 20rem;
-}
-
 .w-5\/6 {
   width: 83.333333%;
 }
 
-.w-auto {
-  width: auto;
-}
-
-.w-44 {
-  width: 11rem;
+.w-1\/4 {
+  width: 25%;
 }
 
 .cursor-pointer {
@@ -766,10 +694,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .justify-center {
   justify-content: center;
-}
-
-.self-end {
-  align-self: flex-end;
 }
 
 .justify-self-end {
@@ -851,15 +775,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .bg-bottles {
-  background-image: url('/img/bottles.png');
+  background-image: url('./img/bottles.png');
 }
 
 .bg-cover {
   background-size: cover;
-}
-
-.bg-contain {
-  background-size: contain;
 }
 
 .bg-center {
@@ -880,14 +800,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .p-1 {
   padding: 0.25rem;
-}
-
-.p-10 {
-  padding: 2.5rem;
-}
-
-.p-8 {
-  padding: 2rem;
 }
 
 .p-6 {
@@ -922,11 +834,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
 }
 
 .pt-14 {
@@ -965,22 +872,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 0.375rem;
 }
 
-.pr-10 {
-  padding-right: 2.5rem;
-}
-
-.pl-10 {
-  padding-left: 2.5rem;
-}
-
-.pl-20 {
-  padding-left: 5rem;
-}
-
-.pr-20 {
-  padding-right: 5rem;
-}
-
 .text-left {
   text-align: left;
 }
@@ -1004,14 +895,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 2.25rem;
 }
 
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .font-bold {
@@ -1092,16 +983,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
-@media (min-width: 768px) {
-  .md\:flex {
-    display: flex;
-  }
-
-  .md\:w-3\/4 {
-    width: 75%;
-  }
-}
-
 @media (min-width: 1024px) {
   .lg\:flex {
     display: flex;
@@ -1129,10 +1010,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:justify-end {
     justify-content: flex-end;
-  }
-
-  .lg\:bg-cover {
-    background-size: cover;
   }
 
   .lg\:px-16 {

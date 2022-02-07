@@ -23,7 +23,7 @@ module.exports = {
         
       },
       backgroundImage: {
-        'bottles': "url('/img/bottles.png')",
+        'bottles': "url('./img/bottles.png')",
       },
     },
   },
