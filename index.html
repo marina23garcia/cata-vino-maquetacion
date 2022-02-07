@@ -5,109 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/output.css" rel="stylesheet" />
   </head>
-  <body>
-    <!-- This example requires Tailwind CSS v2.0+ -->
-    <div class="relative bg-white overflow-hidden">
-      <div class="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
-        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
-          <div class="sm:max-w-lg">
-            <h1
-              class="text-4xl font font-extrabold tracking-tight text-gray-900 sm:text-6xl"
-            >
-              Summer styles bla bla bla are finally here
-            </h1>
-            <p class="mt-4 text-xl text-gray-500">
-              This year, our new summer collection will shelter you from the
-              harsh elements of a world that doesn't care if you live or die.
-            </p>
-          </div>
-          <div>
-            <div class="mt-10">
-              <!-- Decorative image grid -->
-              <div
-                aria-hidden="true"
-                class="pointer-events-none lg:absolute lg:inset-y-0 lg:max-w-7xl lg:mx-auto lg:w-full"
-              >
-                <div
-                  class="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8"
-                >
-                  <div class="flex items-center space-x-6 lg:space-x-8">
-                    <div
-                      class="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8"
-                    >
-                      <div
-                        class="w-44 h-64 rounded-lg overflow-hidden sm:opacity-0 lg:opacity-100"
-                      >
-                        <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-01.jpg"
-                          alt=""
-                          class="w-full h-full object-center object-cover"
-                        />
-                      </div>
-                      <div class="w-44 h-64 rounded-lg overflow-hidden">
-                        <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-02.jpg"
-                          alt=""
-                          class="w-full h-full object-center object-cover"
-                        />
-                      </div>
-                    </div>
-                    <div
-                      class="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8"
-                    >
-                      <div class="w-44 h-64 rounded-lg overflow-hidden">
-                        <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-03.jpg"
-                          alt=""
-                          class="w-full h-full object-center object-cover"
-                        />
-                      </div>
-                      <div class="w-44 h-64 rounded-lg overflow-hidden">
-                        <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-04.jpg"
-                          alt=""
-                          class="w-full h-full object-center object-cover"
-                        />
-                      </div>
-                      <div class="w-44 h-64 rounded-lg overflow-hidden">
-                        <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-05.jpg"
-                          alt=""
-                          class="w-full h-full object-center object-cover"
-                        />
-                      </div>
-                    </div>
-                    <div
-                      class="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8"
-                    >
-                      <div class="w-44 h-64 rounded-lg overflow-hidden">
-                        <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-06.jpg"
-                          alt=""
-                          class="w-full h-full object-center object-cover"
-                        />
-                      </div>
-                      <div class="w-44 h-64 rounded-lg overflow-hidden">
-                        <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-07.jpg"
-                          alt=""
-                          class="w-full h-full object-center object-cover"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <a
-                href="#"
-                class="inline-block text-center bg-indigo-600 border border-transparent rounded-md py-3 px-8 font-medium text-white hover:bg-indigo-700"
-                >Shop Collection</a
-              >
+  <body class="bg-red-100">
+    <!--Header-->
+    <div class="w-full">
+      <!--Idiomas querida-->
+      <div class="h-12 bg-back-claro text-front-oscuro font-medium hidden lg:flex lg:items-center lg:justify-end px-4">
+        <div class="cursor-pointer mx-1">ESP</div>
+        <div class="cursor-pointer mx-1">ENG</div>
+      </div>
+       <!--Logo + botones redondos-->
+    <div class="h-16 bg-blanco flex items-center lg:h-24 px-4">
+      <div class="w-1/2">LOGO</div>
+      <nav class="w-1/2 flex justify-end lg:hidden">
+        <ul class="flex justify-self-end">
+          <li>
+            <div class="border-2 border-primario rounded-full h-8 w-8 cursor-pointer hover:bg-primario group mx-1">
+              <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg" class="m-auto pt-1.5 w-5 h-5">
+                <path d="M10.0013 0.251099C4.47858 0.251099 0.00259217 3.88735 0.00259217 8.37505C0.00259217 10.2342 0.779835 11.9371 2.06873 13.308C1.48677 14.8469 0.275994 16.1514 0.256466 16.167C-0.00131357 16.4404 -0.071617 16.8388 0.0768013 17.1825C0.22522 17.5262 0.565019 17.7488 0.939971 17.7488C3.342 17.7488 5.23629 16.7451 6.37286 15.9405C7.50162 16.2959 8.72021 16.499 10.0013 16.499C15.524 16.499 20 12.8627 20 8.37505C20 3.88735 15.524 0.251099 10.0013 0.251099ZM10.0013 14.6242C8.95846 14.6242 7.92735 14.4641 6.93919 14.1516L6.05259 13.8704L5.29097 14.4094C4.73245 14.8039 3.96692 15.2452 3.04517 15.5421C3.33029 15.0695 3.60759 14.5383 3.82241 13.972L4.23642 12.8745L3.43184 12.023C2.7249 11.2692 1.87735 10.0233 1.87735 8.37505C1.87735 4.93018 5.52141 2.12586 10.0013 2.12586C14.4812 2.12586 18.1252 4.93018 18.1252 8.37505C18.1252 11.8199 14.4812 14.6242 10.0013 14.6242Z" class="fill-primario group-hover:fill-blanco"/>
+              </svg>   
             </div>
-          </div>
-        </div>
+          </li>
+          <li>
+            <div class="border-2 border-primario rounded-full h-8 w-8 cursor-pointer hover:bg-primario group mx-1">
+              <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="m-auto pt-1.5 w-5 h-5">
+                <path d="M5.25 5.78125V4.21875C5.25 3.96094 5.46094 3.75 5.71875 3.75H7.28125C7.53906 3.75 7.75 3.96094 7.75 4.21875V5.78125C7.75 6.03906 7.53906 6.25 7.28125 6.25H5.71875C5.46094 6.25 5.25 6.03906 5.25 5.78125ZM10.7188 6.25H12.2812C12.5391 6.25 12.75 6.03906 12.75 5.78125V4.21875C12.75 3.96094 12.5391 3.75 12.2812 3.75H10.7188C10.4609 3.75 10.25 3.96094 10.25 4.21875V5.78125C10.25 6.03906 10.4609 6.25 10.7188 6.25ZM5.71875 10H7.28125C7.53906 10 7.75 9.78906 7.75 9.53125V7.96875C7.75 7.71094 7.53906 7.5 7.28125 7.5H5.71875C5.46094 7.5 5.25 7.71094 5.25 7.96875V9.53125C5.25 9.78906 5.46094 10 5.71875 10ZM10.7188 10H12.2812C12.5391 10 12.75 9.78906 12.75 9.53125V7.96875C12.75 7.71094 12.5391 7.5 12.2812 7.5H10.7188C10.4609 7.5 10.25 7.71094 10.25 7.96875V9.53125C10.25 9.78906 10.4609 10 10.7188 10ZM7.75 13.2812V11.7188C7.75 11.4609 7.53906 11.25 7.28125 11.25H5.71875C5.46094 11.25 5.25 11.4609 5.25 11.7188V13.2812C5.25 13.5391 5.46094 13.75 5.71875 13.75H7.28125C7.53906 13.75 7.75 13.5391 7.75 13.2812ZM10.7188 13.75H12.2812C12.5391 13.75 12.75 13.5391 12.75 13.2812V11.7188C12.75 11.4609 12.5391 11.25 12.2812 11.25H10.7188C10.4609 11.25 10.25 11.4609 10.25 11.7188V13.2812C10.25 13.5391 10.4609 13.75 10.7188 13.75ZM17.75 18.5938V20H0.25V18.5938C0.25 18.3359 0.460938 18.125 0.71875 18.125H1.48047V0.9375C1.48047 0.417969 1.89844 0 2.41797 0H15.582C16.1016 0 16.5195 0.417969 16.5195 0.9375V18.125H17.2812C17.5391 18.125 17.75 18.3359 17.75 18.5938ZM3.35547 18.0859H7.75V15.4688C7.75 15.2109 7.96094 15 8.21875 15H9.78125C10.0391 15 10.25 15.2109 10.25 15.4688V18.0859H14.6445V1.91406L3.375 1.875L3.35547 18.0859Z" class="fill-primario group-hover:fill-blanco"/>
+                </svg>
+            </div>
+          </li>
+          <li>
+            <div class="border-2 border-primario rounded-full h-8 w-8 cursor-pointer hover:bg-primario group mx-1">
+              <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="m-auto pt-1.5 w-5 h-5">
+                <path d="M12.5 11.875C11.3789 11.875 10.8398 12.5 9 12.5C7.16016 12.5 6.625 11.875 5.5 11.875C2.60156 11.875 0.25 14.2266 0.25 17.125V18.125C0.25 19.1602 1.08984 20 2.125 20H15.875C16.9102 20 17.75 19.1602 17.75 18.125V17.125C17.75 14.2266 15.3984 11.875 12.5 11.875ZM15.875 18.125H2.125V17.125C2.125 15.2656 3.64062 13.75 5.5 13.75C6.07031 13.75 6.99609 14.375 9 14.375C11.0195 14.375 11.9258 13.75 12.5 13.75C14.3594 13.75 15.875 15.2656 15.875 17.125V18.125ZM9 11.25C12.1055 11.25 14.625 8.73047 14.625 5.625C14.625 2.51953 12.1055 0 9 0C5.89453 0 3.375 2.51953 3.375 5.625C3.375 8.73047 5.89453 11.25 9 11.25ZM9 1.875C11.0664 1.875 12.75 3.55859 12.75 5.625C12.75 7.69141 11.0664 9.375 9 9.375C6.93359 9.375 5.25 7.69141 5.25 5.625C5.25 3.55859 6.93359 1.875 9 1.875Z" class="fill-primario group-hover:fill-blanco"/>
+              </svg>             
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <div class="w-1/2 hidden lg:flex justify-end">
+        <ul class="flex justify-self-end">
+          <li>
+            <div class="flex items-center text-primario font-medium hover:text-blanco hover:bg-primario border-2 border-primario px-4 py-2 rounded-md mx-3 cursor-pointer group">
+              <div>Acceso espablecimientos</div>
+              <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="ml-2 w-4 h-4">
+                <path d="M5.25 5.78125V4.21875C5.25 3.96094 5.46094 3.75 5.71875 3.75H7.28125C7.53906 3.75 7.75 3.96094 7.75 4.21875V5.78125C7.75 6.03906 7.53906 6.25 7.28125 6.25H5.71875C5.46094 6.25 5.25 6.03906 5.25 5.78125ZM10.7188 6.25H12.2812C12.5391 6.25 12.75 6.03906 12.75 5.78125V4.21875C12.75 3.96094 12.5391 3.75 12.2812 3.75H10.7188C10.4609 3.75 10.25 3.96094 10.25 4.21875V5.78125C10.25 6.03906 10.4609 6.25 10.7188 6.25ZM5.71875 10H7.28125C7.53906 10 7.75 9.78906 7.75 9.53125V7.96875C7.75 7.71094 7.53906 7.5 7.28125 7.5H5.71875C5.46094 7.5 5.25 7.71094 5.25 7.96875V9.53125C5.25 9.78906 5.46094 10 5.71875 10ZM10.7188 10H12.2812C12.5391 10 12.75 9.78906 12.75 9.53125V7.96875C12.75 7.71094 12.5391 7.5 12.2812 7.5H10.7188C10.4609 7.5 10.25 7.71094 10.25 7.96875V9.53125C10.25 9.78906 10.4609 10 10.7188 10ZM7.75 13.2812V11.7188C7.75 11.4609 7.53906 11.25 7.28125 11.25H5.71875C5.46094 11.25 5.25 11.4609 5.25 11.7188V13.2812C5.25 13.5391 5.46094 13.75 5.71875 13.75H7.28125C7.53906 13.75 7.75 13.5391 7.75 13.2812ZM10.7188 13.75H12.2812C12.5391 13.75 12.75 13.5391 12.75 13.2812V11.7188C12.75 11.4609 12.5391 11.25 12.2812 11.25H10.7188C10.4609 11.25 10.25 11.4609 10.25 11.7188V13.2812C10.25 13.5391 10.4609 13.75 10.7188 13.75ZM17.75 18.5938V20H0.25V18.5938C0.25 18.3359 0.460938 18.125 0.71875 18.125H1.48047V0.9375C1.48047 0.417969 1.89844 0 2.41797 0H15.582C16.1016 0 16.5195 0.417969 16.5195 0.9375V18.125H17.2812C17.5391 18.125 17.75 18.3359 17.75 18.5938ZM3.35547 18.0859H7.75V15.4688C7.75 15.2109 7.96094 15 8.21875 15H9.78125C10.0391 15 10.25 15.2109 10.25 15.4688V18.0859H14.6445V1.91406L3.375 1.875L3.35547 18.0859Z" class="fill-primario group-hover:fill-blanco"/>
+                </svg>
+            </div>
+          </li>
+          <li>
+            <div class="flex items-center text-primario font-medium hover:text-blanco hover:bg-primario border-2 border-primario px-4 py-2 rounded-md mx-3 cursor-pointer group">
+              <div>Area de usuario</div>
+            <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="ml-2 w-4 h-4">
+              <path d="M12.5 11.875C11.3789 11.875 10.8398 12.5 9 12.5C7.16016 12.5 6.625 11.875 5.5 11.875C2.60156 11.875 0.25 14.2266 0.25 17.125V18.125C0.25 19.1602 1.08984 20 2.125 20H15.875C16.9102 20 17.75 19.1602 17.75 18.125V17.125C17.75 14.2266 15.3984 11.875 12.5 11.875ZM15.875 18.125H2.125V17.125C2.125 15.2656 3.64062 13.75 5.5 13.75C6.07031 13.75 6.99609 14.375 9 14.375C11.0195 14.375 11.9258 13.75 12.5 13.75C14.3594 13.75 15.875 15.2656 15.875 17.125V18.125ZM9 11.25C12.1055 11.25 14.625 8.73047 14.625 5.625C14.625 2.51953 12.1055 0 9 0C5.89453 0 3.375 2.51953 3.375 5.625C3.375 8.73047 5.89453 11.25 9 11.25ZM9 1.875C11.0664 1.875 12.75 3.55859 12.75 5.625C12.75 7.69141 11.0664 9.375 9 9.375C6.93359 9.375 5.25 7.69141 5.25 5.625C5.25 3.55859 6.93359 1.875 9 1.875Z" class="fill-primario group-hover:fill-blanco"/>
+            </svg> 
+
+            </div>
+                        
+          </li>
+        </ul>
+
       </div>
     </div>
+    </div>
+    <!--Imagen principal-->
+
+    <!--Recargar tus bonos-->
+
+    <!--Descripcion del bono-->
+
+    <!--Footer-->
   </body>
 </html>
