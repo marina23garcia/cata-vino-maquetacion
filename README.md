@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Tailwind CSS básico
 
 Una instalación básica para empezar a utilizar tailwindCSS
@@ -24,3 +25,6 @@ npm run serve
 ### Uso
 
 Tiene un servicio watch que va incluyendo las classes que vayas utilizando en fichero output.css automáticamente y un servidor web que lo carga muy rápido. Ni te das cuenta.
+=======
+# cata-vino-maquetacion
+>>>>>>> 2675e681297cbd31454a3eff5ba22016f0158a6c
