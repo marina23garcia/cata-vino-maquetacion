@@ -2,6 +2,7 @@ module.exports = {
   content: ["./**/*.html"],
   theme: {
     extend: {
+      
       colors: {
         primario: '#B28C00',
         back: {
@@ -42,3 +43,5 @@ module.exports = {
   },
   plugins: [],
 };
+
+

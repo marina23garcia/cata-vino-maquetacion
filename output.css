@@ -917,6 +917,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-size: cover;
 }
 
+.bg-contain {
+  background-size: contain;
+}
+
 .bg-center {
   background-position: center;
 }
@@ -1160,10 +1164,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: 6rem;
   }
 
-  .sm\:w-2\/5 {
-    width: 40%;
-  }
-
   .sm\:w-3\/4 {
     width: 75%;
   }
@@ -1257,6 +1257,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     align-items: center;
   }
 
+  .lg\:justify-start {
+    justify-content: flex-start;
+  }
+
   .lg\:justify-end {
     justify-content: flex-end;
   }
@@ -1265,9 +1269,9 @@ Ensure the default browser behavior of the `hidden` attribute.
     justify-content: space-between;
   }
 
-  .lg\:px-16 {
-    padding-left: 4rem;
-    padding-right: 4rem;
+  .lg\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 
   .lg\:text-left {
@@ -1286,5 +1290,15 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:text-4xl {
     font-size: 2.25rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:m-auto {
+    margin: auto;
+  }
+
+  .xl\:max-w-7xl {
+    max-width: 80rem;
   }
 }
